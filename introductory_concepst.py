@@ -23,8 +23,6 @@ while not exit:
     putpixel(50, 200, (255, 0, 0))
     putpixel(200, 200, (255, 0, 0))
     putpixel(90, 200, (255, 0, 0))
-    putpixel(300, -200, (255, 0, 0))
-    putpixel(-300, 200, (255, 0, 0))
 
     for event in pygame.event.get(): 
         if event.type == pygame.QUIT: 
