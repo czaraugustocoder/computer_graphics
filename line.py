@@ -62,7 +62,7 @@ while not exit:
 
     canvas.fill((255, 255, 255))
 
-    drawline(20, 120, 100, 240, (0, 0, 0))
+    drawline(-80, 140, 200, 260, (0, 0, 0))
 
     for event in pygame.event.get(): 
         if event.type == pygame.QUIT: 
